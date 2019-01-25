@@ -25,4 +25,4 @@ I use this web page to attach my web application projects.
 
 My self sowmya Reddy Kumbham from Applied computer science section 01.
 
-![Hosted image](https://github.com/SOWMYAREDDY97/aboutme/raw/master/rose-bluerose-blooms-67636.jpeg"recent pic draged concentration")
+![image](https://github.com/SOWMYAREDDY97/aboutme/raw/master/rose-bluerose-blooms-67636.jpeg)
