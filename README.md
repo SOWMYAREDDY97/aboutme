@@ -4,9 +4,8 @@ Sowmya Reddy Kumbham
 www.nwmissouri.edu
 ## Links
 
-- [Webpage] (https://sowmyareddy97.github.io/aboutme/ "This is about me Webpage")
-
-- [Source] (https://github.com/SOWMYAREDDY97/aboutme "This is my github repository")
+- [Webpage](https://sowmyareddy97.github.io/aboutme/ "Working With Markdown Webpage")
+- [Source](https://github.com/SOWMYAREDDY97/aboutme "Working With Markdown Source")
 
 ## About
 
