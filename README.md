@@ -13,14 +13,13 @@ I use this web page to attach my web application projects.
 ## Tools
 
 - [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html): Notepad++ is a text editor and source code editor for use with Microsoft Windows for developing different software platforms.
-- [TortoiseGit](https://tortoisegit.org/download/): TortoiseGit is a Git revision control client, implemented as a Windows shell extension and based on TortoiseSVN. It is used for publishing and cloning the code from github.
 - [GitHub](https://github.com/): cloud storing the code . It is a web based hosting service.
 - [BitBucket](https://bitbucket.org/product): DescriptionBitbucket is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use either Mercurial or Git revision control systems.
 
 ## Recommended Resources
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/ "Mastering Markdown")
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown cheet sheet")
+- [Markdown commands](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown cheet sheet")
 
 ## Contributors
 
