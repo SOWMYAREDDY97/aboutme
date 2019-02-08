@@ -1,0 +1,66 @@
+h1 {
+    
+    border-style : solid;
+    padding-top : 1em;
+    padding-bottom : 1em;
+    padding-left: 1em;
+    background-color : rgb(146, 167, 187);
+    color : white;
+}
+h2 {
+    
+    border-style : solid;
+    padding-top : 1em;
+    padding-bottom : 1em;
+    padding-left: 1em;
+    background-color : rgb(146, 167, 187);
+    color : white;
+
+
+
+}
+body {
+    padding-top: 5rem;
+  }
+  
+  body, html {
+    height: 50%;
+  }
+  
+  .video-wrapper {
+    width: 100%;
+    background-color: lightblue;
+  }
+  
+  section {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: lightblue;
+    border-radius: 2em;
+  }
+  
+  .bgimg {background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg");
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* fixed in viewport */
+  }
+  .bgimg1 {background-image: url("IMG-20190202-WA0076.jpg");
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* fixed in viewport */
+  }
+  table td,th,tr{
+      border: solid blue;
+      color: lightslategray;
+      background-color: lightblue;
+      width :80%;
+      height: 55px;
+  }
