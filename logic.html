@@ -9,6 +9,8 @@
   <!-- Link to CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="style.css">
 
@@ -34,6 +36,9 @@
         <li class="nav-item">
           <a class="nav-link disabled" href="logic.html">LOGIC</a>
         </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="qunit.html">QUnit Test</a>
+        </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -44,12 +49,20 @@
   <header class="container-fluid">
         SOWMYA REDDY
       </header>
+      <h1 class="h1-responsive font-weight-bold text-center my-4">PALINDROME</h1>
 </body>
-  <h1 class="h1-responsive font-weight-bold text-center my-4">PALINDROME</h1>
-  <h2 class="h2-responsive font-weight-bold text-center my-4">
-        <section class="col-md-8">
+  
+  
+      <form >
+          Enter a String: <input type="text" id="str" name="string" /><br />
+          <input type="submit" value="GO" onclick="checkPalindrom();"/><br />
+          Enter a Number: <input type="text" id="num" name="string" /><br />
+         
+          <input type="submit" value="GO" onclick="checkPalindrome();"/>
+          </form>
+        
         <script type="text/javascript">
-            function checkPalindrome() {
+            function checkPalindrom() {
             var revStr = "";
             var str = document.getElementById("str").value;
             var i = str.length;
@@ -62,14 +75,27 @@
             alert(str+" -is not a Palindrome");
             }
             }
+            function checkPalindrome() {
+            var revStr = "";
+            var str = document.getElementById("num").value;
+            var i = str.length;
+            for(var j=i; j>=0; j--) {
+            revStr = revStr+str.charAt(j);
+            }
+            if(str == revStr) {
+            alert(str+" -is Palindrome");
+            } else {
+            alert(str+" -is not a Palindrome");
+            }
+            }
             </script>
 
-            <form >
-    Enter a String/Number: <input type="text" id="str" name="string" /><br />
-    <input type="submit" value="GO" onclick="checkPalindrome();"/>
-    </form>
-    </section>
-  </h2>
+           
+    
+<h3 id="submit">click on me</h3>
+<img src="" id="image" style="width:100px;height:100px;"/>
+<script src="ajax.js"></script>
+  
   <br>
 
   <footer class="main-footer">
