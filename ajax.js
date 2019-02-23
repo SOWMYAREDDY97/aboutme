@@ -16,11 +16,20 @@ function myfunction(){
  
  }
  
- const url = "https://thesimpsonsquoteapi.glitch.me/quotes";
- document.getElementById('submit').addEventListener('click', function() {
-     $.ajax({url: url, success: function(result){
-         var test = result;
-         var image = result[0].image;
-         document.getElementById("image").src = image
-     }});
- });
+ console.log('get random quotes: AJAX fetch')
+
+const url = "https://thesimpsonsquoteapi.glitch.me/quotes"
+document.getElementById('submit').addEventListener('click', function() {
+    fetch(url) 
+    .then((res) => { return res.json() }) 
+    .then((data) => {            
+        data.forEach((item) => {
+            const { quote, character } = item
+            const result = `Quote : "${quote}"  By : ${character}`
+            document.getElementById('sowmya').innerHTML = result;
+        });
+    })
+    .catch(function (error) {
+        console.log(JSON.stringify(error)); 
+    })
+})
